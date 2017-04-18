@@ -1,5 +1,5 @@
 #fastview {
-  color:blue;
+  color: blue;
   font-family: monospace;
   font-size: 75px;
   padding-left: 5%;
@@ -71,7 +71,7 @@ input {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  *border-bottom-left-radius: 3px;
   box-shadow: none;
   vertical-align: bottom;
   font: inherit;
@@ -109,6 +109,7 @@ input {
 
 input:focus {
   border: 1px solid #07682c;
+  outline: none;
 }
 
 #f {
